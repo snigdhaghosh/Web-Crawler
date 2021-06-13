@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 12 15:57:26 2019
-
 @author: snigdhaghoshdastidar
 """
 
 #SNIGDHA GHOSH DASTIDAR
-#UIN:656727529
 #PROJECT 4 
 
 import urllib.request as ur
@@ -83,6 +80,7 @@ def crawl(start,limit):
     # print(emails)
     return emails 
 
+
 print("\n\nWelcome!\n")
 loop = "c"
 while(loop == "C" or loop == "c"):
@@ -92,4 +90,4 @@ while(loop == "C" or loop == "c"):
     print(crawl(start, int(limit)))
     loop = input("\nType Q to Quit and C to continue: ")
 
-# crawl("https://www.cs.uic.edu/~sloan/CS111Law/crawlerstart.html",4)
+# site allowed to crawl : https://www.cs.uic.edu/~sloan/CS111Law/crawlerstart.html
