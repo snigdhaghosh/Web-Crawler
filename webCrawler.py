@@ -4,8 +4,8 @@
 @author: snigdhaghoshdastidar
 """
 
-#SNIGDHA GHOSH DASTIDAR
-#PROJECT 4 
+# SNIGDHA GHOSH DASTIDAR
+# PROJECT 4 
 
 import urllib.request as ur
 import re
