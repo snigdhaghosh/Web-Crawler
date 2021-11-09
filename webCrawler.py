@@ -89,5 +89,3 @@ while(loop == "C" or loop == "c"):
     print("Emails addresses found: ")
     print(crawl(start, int(limit)))
     loop = input("\nType Q to Quit and C to continue: ")
-
-# site allowed to crawl : https://www.cs.uic.edu/~sloan/CS111Law/crawlerstart.html
